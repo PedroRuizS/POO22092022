@@ -3,16 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ico.fes;
+package libro;
 
 /**
  *
  * @author pedrooooo
  */
-public class Foco {
- String color;
- String tipo;
- int tamano;
- 
- 
+public class Libro {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    }
+    
 }
