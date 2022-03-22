@@ -49,5 +49,12 @@ public class Actor {
     public String toString() {
         return "Actor{" + "nombre=" + nombre + ", edad=" + edad + ", nacionalidad=" + nacionalidad + '}';
     }
+    public String actuado (int actuadas){
+    actuadas = 2;
+    String cotorreo = "El actor ha actuado en "+ actuadas + "peliculas nominadas al oscar";
+    return cotorreo;
+    
+    
+}
     
 }

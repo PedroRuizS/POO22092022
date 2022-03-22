@@ -51,6 +51,13 @@ public class Autor {
         return "Autor{" + "nombre=" + nombre + ", edad=" + edad + ", escritos=" + escritos + '}';
     }
     
+    public String escribir (int escritos){
+    escritos  = 4;
+    String cotorreo = "El escritor ha escrito "+ escritos + "libros best seller";
+    return cotorreo;
+    
+    
+}
     
     
 }

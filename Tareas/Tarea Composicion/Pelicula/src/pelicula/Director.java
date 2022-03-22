@@ -54,5 +54,16 @@ public class Director {
     public String toString() {
         return "Director{" + "nombre=" + nombre + ", peliculas=" + peliculas + ", edad=" + edad + '}';
     }
+    public String Dirigidas (int dirigidas){
+    dirigidas = 9;
+    String cotorreo = "El director ha dirigido"+ dirigidas + "peliculas chidas";
+    return cotorreo;
+    
+    
+}
+    
+    
+    
+    
     
 }

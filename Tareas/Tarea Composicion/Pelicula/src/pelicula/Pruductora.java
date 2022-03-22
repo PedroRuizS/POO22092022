@@ -41,6 +41,12 @@ public class Pruductora {
         return "Pruductora{" + "nombreC=" + nombreC + ", funacion=" + funacion + '}';
     }
 
-
+    public String producir(int producidas){
+    producidas = 45;
+    String cotorreo = "La productora ha hecho"+ producidas+ "peliculas de calidad";
+    return cotorreo;
+    
+    
+}
     
 }

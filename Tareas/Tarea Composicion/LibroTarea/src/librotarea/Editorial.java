@@ -40,6 +40,13 @@ public class Editorial {
     public String toString() {
         return "Editorial{" + "Nombre=" + Nombre + ", Fundacion=" + Fundacion + '}';
     }
+    public String editado(int editadas){
+    editadas = 450;
+    String cotorreo = "La editorial ha editado "+ editadas + "libros best seller";
+    return cotorreo;
+    
+    
+}
     
     
 }
