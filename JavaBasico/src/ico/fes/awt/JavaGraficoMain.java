@@ -4,13 +4,16 @@
  */
 package ico.fes.awt;
 
+import ico.fes.swing.VentanaSwing;
+
 /**
  *
  * @author User
  */
 public class JavaGraficoMain {
     public static void main(String[] args) {
-        Ventana ventana = new Ventana("Hola AWT ICO FES Aragon");
-    
+        //Ventana ventana = new Ventana("Hola AWT ICO FES Aragon");
+        VentanaSwing vs=new VentanaSwing();
+        System.out.println(System.getProperty("java.version"));
     }
 }
